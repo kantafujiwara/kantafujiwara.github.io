@@ -296,4 +296,14 @@ main {
   .hero-inner {
     padding-top: 58px;
   }
+  
+  .pub-title a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.pub-title a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
 }
